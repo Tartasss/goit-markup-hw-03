@@ -34,8 +34,20 @@ ol {
   padding-left: 0;
 }
 
+.header-container {
+  display: flex;
+  flex-direction: row;
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
 .container {
   display: flex;
+  flex-direction: column;
   width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
@@ -106,6 +118,7 @@ ol {
 
 .addr {
   font-style: normal;
+  padding: 24px 0;
 }
 
 .addr-contact-list .link {
@@ -121,7 +134,6 @@ ol {
 }
 
 .hero {
-  width: 1440px;
   height: 600px;
   background: #2e2f42;
   padding: 188px 0;
