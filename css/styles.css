@@ -239,7 +239,6 @@ ol {
 
 .team {
   padding: 120px 0;
-
   background-color: #f4f4fd;
 }
 
@@ -257,6 +256,10 @@ ol {
 .team-list {
   display: flex;
   gap: 24px;
+}
+
+.team-list:first-child {
+  width: calc((100% - 72px) / 4);
 }
 
 .team-list:not(:last-child) {
@@ -364,6 +367,7 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
 }
 
 .container-footer .link {
