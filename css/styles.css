@@ -107,6 +107,7 @@ ol {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .header-list .link:hover,
@@ -262,11 +263,6 @@ ol {
   margin-right: 0;
 }
 
-.team-list:first-child {
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
-}
-
 .team-item {
   margin-right: 24px;
   background-color: #ffffff;
@@ -329,6 +325,7 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .card {
@@ -339,7 +336,6 @@ ol {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  gap: 8px;
   width: 360px;
   height: 120px;
 }
@@ -370,7 +366,7 @@ ol {
   color: #4d5ae5;
 }
 
-.footer .container .link {
+.container-footer .link {
   display: inline-block;
   margin-bottom: 16px;
 }
