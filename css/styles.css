@@ -207,7 +207,7 @@ ol {
 }
 
 .features-list.li {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 3);
   margin-right: 24px;
 }
 
