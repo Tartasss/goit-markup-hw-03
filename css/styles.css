@@ -258,10 +258,6 @@ ol {
   gap: 24px;
 }
 
-.team-list:first-child {
-  flex-basis: calc((100% - 72px) / 4);
-}
-
 .team-list:not(:last-child) {
   margin-right: 0;
 }
@@ -388,6 +384,10 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+  display: inline-block;
+}
+
+.link {
   display: inline-block;
 }
 
