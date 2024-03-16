@@ -32,55 +32,33 @@ ol {
 }
 
 .container {
-  max-width: 1158px;
-  width: 100%;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
 .header-container {
   display: flex;
-  flex-direction: row;
-  width: 1158px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
   align-items: center;
-  justify-content: center;
 }
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  width: 1158px;
-  height: 72px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 0px;
 }
 
 .header-list {
   gap: 40px;
   display: flex;
-  align-items: center;
-  margin-right: 332px;
-  justify-content: center;
 }
 
 .addr-contact-list {
   gap: 40px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 24px 0;
 }
 
 .header-logo {
@@ -104,6 +82,7 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
 }
 
 .header-list .link:hover,
@@ -113,7 +92,7 @@ ol {
 
 .addr {
   font-style: normal;
-  padding: 24px 0;
+  margin-left: auto;
 }
 
 .addr-contact-list .link {
@@ -142,10 +121,7 @@ ol {
   color: #fff;
   text-align: center;
   max-width: 496px;
-  min-height: 120px;
-  display: flex;
-  align-self: center;
-  margin: 0 auto;
+  margin: 0 auto 48px;
 }
 
 .button {
@@ -163,7 +139,7 @@ ol {
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
-  margin: 48px auto;
+  margin: 0 auto;
 }
 
 .button:hover,
@@ -194,16 +170,12 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  display: flex;
-  gap: 8px;
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .features-list {
   display: flex;
   gap: 24px;
-  height: 104px;
 }
 
 .features-list.li {
@@ -216,15 +188,7 @@ ol {
 }
 
 .features-item {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  width: 264px;
-  height: 104px;
-  gap: 8px;
   width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .features-item-text {
@@ -264,12 +228,7 @@ ol {
 }
 
 .team-item {
-  margin-right: 24px;
   background-color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -331,12 +290,6 @@ ol {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-  width: 360px;
-  height: 120px;
 }
 
 .portfolio-item {
